@@ -41,8 +41,23 @@ flooded, or flooding are used while flagging new binary features. Various machin
 models were trained for the binary features. GridSearchCV was performed for each model to
 achieve the best parameters.
 
-### BERT + SVM
+### BERT + SVM:
 Bidirectional Encoder Representations from Transformers (BERT), a deep
 learning based approach which has given state of the art performance on various NLP
 tasks.The BERT framework was pre-trained using text from Wikipedia. The embeddings
 from BERT for "title" and "description" are concatenated and passed to SVM for classification.
+
+## Multimodal (multimodal_flood_detection.py)
+
+### IceptionV3 + BERT + Binary Feature Extraction:
+
+We have built a multi modal approach
+from the best achieving models with images and metadata, that is, we have combined
+InceptionV3 giving the images as the input, Pre-trained BERT giving the metadata as input
+and passed binary features extracted from the metadata to a fully connected network. For
+each of the networks, batch normalization layer has improved the accuracy and decreased
+the training time. The architecture of the multi modal approach has been shown in the
+below.
+
+![Screen Shot 2022-01-06 at 4 47 26 PM](https://user-images.githubusercontent.com/28782608/148456758-be7aad94-08a2-4009-b20d-295044ba4f2a.png)
+

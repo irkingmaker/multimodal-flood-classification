@@ -61,3 +61,29 @@ below.
 
 ![Screen Shot 2022-01-06 at 4 47 26 PM](https://user-images.githubusercontent.com/28782608/148456758-be7aad94-08a2-4009-b20d-295044ba4f2a.png)
 
+## Results
+
+![Screen Shot 2022-01-06 at 4 49 10 PM](https://user-images.githubusercontent.com/28782608/148456930-33a596e4-f2ff-4baa-ab26-4a317a42126b.png)
+
+## Conclusion
+
+In this project, we have learnt how to deal with unstructured data like images and textual data. We
+learnt how to implement machine learning and deep learning approaches on the data and fine tuning
+those approaches using various methods and experiments.
+We have achieved a baseline for flood detection from social media imagery using traditional machine
+learning models and deep Neural Networks.
+Using the image metadata, we trained a svm model using the extracted binary features and used SVM+ BERT(word embeddings) for classification.
+We trained mutli-modal approach for detection of floods i.e we leveraged the images and the metadata
+of the images in the training. The metadata contains text data, hence we combined NLP techniques into our approach.
+Fusion of the image classifier(Inception), metadata embeddings(BERT), and extracted binary features
+performed better than the baseline model (Increased the accuracy by 6%).
+We were able to improve average precision of baseline model because we have used relevant
+features which gave good accuracy and state of the art approaches, i.e BERT, handcrafted features
+and InceptionV3. 
+
+### Our novel proposed method also performs better than that of the models mentioned in the reference paper.
+
+## References
+
+1. [Lopez-Fuentes, Laura et al. “Multi-modal Deep Learning Approach for Flood Detection.” MediaEval (2017).](http://ceur-ws.org/Vol-1984/Mediaeval_2017_paper_14.pdf)
+2. [Ahmad, Sheharyar et al. “Convolutional Neural Networks for Disaster Images Retrieval.” MediaEval (2017).](http://ceur-ws.org/Vol-1984/Mediaeval_2017_paper_11.pdf)

@@ -1,7 +1,7 @@
 # multimodal-flood-classification
 
 In this work we will focus on on-ground images taken by humans in the flooded regions and posted on social networks and therefore 
-containing metadata. Initially, we will perform data pre-processing and exploratory data analysis on the flood images. (metadata_visualization.py)
+containing metadata. Initially, we will perform data pre-processing and exploratory data analysis on the flood images.
 
 ## Dataset Description
 

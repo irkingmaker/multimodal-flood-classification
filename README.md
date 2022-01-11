@@ -14,6 +14,12 @@ user-creator. Of the 6,600 total examples, 4,200 are labeled "no flooding" and 2
 the images in the dataset were used for training and evaluation of the model is done on testing set
 images of the DIRSM dataset.
 
+### Dataset link - https://github.com/multimediaeval/2017-Multimedia-Satellite-Task/wiki/Data-Release#dirsm-development-set
+
+## Dataset Test link - https://github.com/multimediaeval/2017-Multimedia-Satellite-Task/wiki/Data-Release#dirsm-test-set
+
+
+
 ## Image-only Model (inception_flood_detection.py and resnet_flood_detection.py)
 
 ### Inception V3: 
@@ -82,6 +88,12 @@ features which gave good accuracy and state of the art approaches, i.e BERT, han
 and InceptionV3. 
 
 ### Our novel proposed method also performs better than that of the models mentioned in the reference paper.
+
+## Instructions to Run:
+
+The codes have been executed using Google COLAB. (Codes for additional packages to be installed are in begining of each jupyter notebooks)
+The "path" variable in each file should be initialized with training dataset path.
+the "testing_path" variable in each file should be initialized with testing dataset path.
 
 ## References
 

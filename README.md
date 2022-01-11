@@ -94,7 +94,8 @@ and InceptionV3.
 The codes have been executed using Google COLAB. (Codes for additional packages to be installed are in begining of each jupyter notebooks).
 
 The "path" variable in each file should be initialized with training dataset path.
-the "testing_path" variable in each file should be initialized with testing dataset path.
+
+The "testing_path" variable in each file should be initialized with testing dataset path.
 
 ## References
 
